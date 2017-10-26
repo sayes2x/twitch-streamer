@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Twitch TV Streamer</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <header>
+  <div class="spacer"></div>
+  <div class="title">
+    <span>Twitch Streamers</span>
+      <form onSubmit="return false;">
+        <input class="filter" type="text" value="Filter by Stream Name">
+      </form>
+  </div>
+    <ul class="status">
+      <li class="allStreams wide"><span class="bullet allBullet">⬤</span><span class="visable">All</span></li>
+      <li class="onlineStreams narrow"><span class="bullet onlineBullet">⬤</span><span class="hidden">Online</span></li>
+      <li class="offlineStreams narrow"><span class="bullet offlineBullet">⬤</span><span class="hidden">Offline</span></li>
+    </ul>
+</header>
+<div id="response"></div>
+<footer></footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
