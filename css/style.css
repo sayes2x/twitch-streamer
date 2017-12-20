@@ -18,7 +18,7 @@ header {
   grid-area: title;
   position: relative;
   color: #f0edf7;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 700;
 }
 .filter {
